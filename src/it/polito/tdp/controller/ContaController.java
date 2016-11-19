@@ -12,8 +12,9 @@ public class ContaController {       //UTENTE INSERISCE UNA PAROLA E IL PROGRAMM
 	
 	private Model model;
 	
-	public void setModel(Model m){
-		this.model=m;
+
+	public void setModel(Model model){
+		this.model=model;
 	}
 
     @FXML
@@ -47,9 +48,9 @@ public class ContaController {       //UTENTE INSERISCE UNA PAROLA E IL PROGRAMM
     	}
     	int numero = model.conta(s);
     	String  messaggio = "La lunghezza della parola è: "+numero+ "\n";
+    	//System.out.println(messaggio);
     	txtResult.setText(messaggio);
-    	//txtResult.appendText("la lunghezza della parola è " +numero+ " \n ");
-
+    	txtResult.appendText("la lunghezza della parola è " +numero+ " \n ");
     }
 
     @FXML

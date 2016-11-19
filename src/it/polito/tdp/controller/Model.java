@@ -1,9 +1,9 @@
 package it.polito.tdp.controller;
 
-public class Model {
+public class Model {              //metto tutto nel controller
 	
 	private String parola;
-	private int numero;
+	public int numero;
 	
 	public int conta(String parola){   //OK!
 		numero= parola.length();
