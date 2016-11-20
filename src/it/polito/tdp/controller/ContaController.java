@@ -10,7 +10,7 @@ import javafx.scene.control.TextField;
 
 public class ContaController {       //UTENTE INSERISCE UNA PAROLA E IL PROGRAMMA DEVE RESTITUIRE LA LUNGHEZZA NELLA TEXTaREA
 	
-	private Model model;
+	private Model model = new Model();
 	
 
 	public void setModel(Model model){
