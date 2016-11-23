@@ -50,7 +50,7 @@ public class ContaController {       //UTENTE INSERISCE UNA PAROLA E IL PROGRAMM
     	String  messaggio = "La lunghezza della parola è: "+numero+ "\n";
     	//System.out.println(messaggio);
     	txtResult.setText(messaggio);
-    	txtResult.appendText("la lunghezza della parola è " +numero+ " \n ");
+    	//txtResult.appendText("la lunghezza della parola è " +numero+ " \n ");
     }
 
     @FXML
