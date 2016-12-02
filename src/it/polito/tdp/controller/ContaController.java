@@ -12,7 +12,6 @@ public class ContaController {       //UTENTE INSERISCE UNA PAROLA E IL PROGRAMM
 	
 	private Model model = new Model();
 	
-
 	public void setModel(Model model){
 		this.model=model;
 	}
@@ -48,7 +47,6 @@ public class ContaController {       //UTENTE INSERISCE UNA PAROLA E IL PROGRAMM
     	}
     	int numero = model.conta(s);
     	String  messaggio = "La lunghezza della parola è: "+numero+ "\n";
-    	//System.out.println(messaggio);
     	txtResult.setText(messaggio);
     	//txtResult.appendText("la lunghezza della parola è " +numero+ " \n ");
     }
